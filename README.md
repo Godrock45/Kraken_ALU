@@ -3,19 +3,19 @@
 
 
 
-// ========================================================================
-// Title       : ALU_Project.v
-// Author      : Akshat Singh
-// Description : 32-bit Arithmetic Logic Unit supporting AND, OR, XOR, NOT,
-//               ADD (with carry select), SUB, SLT, and NAND operations.
-// 
-// Notes       :
-//   - Custom full adder-based ripple adder (add16)
-//   - Carry-select optimization in upper 16-bits
-//   - Bitwise NOT and XOR as modular Verilog
-//   - Signed SLT operation implemented using Verilog's signed comparison
-//   - Original naming and structure for clarity and reuse
-// ========================================================================
+ ========================================================================
+ Title       : ALU_Project.v
+ Author      : Akshat Singh
+ Description : 32-bit Arithmetic Logic Unit supporting AND, OR, XOR, NOT,
+             ADD (with carry select), SUB, SLT, and NAND operations.
+
+ Notes       :
+     - Custom full adder-based ripple adder (add16)
+     - Carry-select optimization in upper 16-bits
+     - Bitwise NOT and XOR as modular Verilog
+     - Signed SLT operation implemented using Verilog's signed comparison
+     - Original naming and structure for clarity and reuse
+ ========================================================================
 
 
 
